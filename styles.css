@@ -46,8 +46,9 @@ body {
       background-color: #004A80;
   }
   .top-nav{
-      padding-top: 20px;
-  }
+    /* padding-top: 20px; */
+    padding: 20px 0 30px 0;
+}
   .box{
     margin-right: auto;
     margin-left: auto;
@@ -88,7 +89,8 @@ body {
     color: var(--white);
     letter-spacing: 0;
     text-align: center;
-    margin: 30px 0 10px 0;
+    /* margin: 30px 0 10px 0; */
+    margin-bottom: 10px;
   }
 
   .search-area h4{
@@ -114,4 +116,77 @@ body {
     justify-content: space-between;
     padding: 10px 0;
     height: auto;
+  }
+
+  .input-email{
+    background-color: #fff;
+    display: block;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 -1px 4px 0 rgb(0 0 0 / 10%);
+    box-shadow: inset 0 -1px 4px 0 rgb(0 0 0 / 10%);
+    width: 100%;
+    padding-left: 12px;
+    height: 50px;
+  }
+
+  .container-input input{
+    color: #4A4A4A;
+    border: 0;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    background: transparent;
+    position: relative;
+    top: 11px;
+  }
+
+  .container-input label{
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #9B9B9B;
+    letter-spacing: 2px;
+    line-height: 18px;
+  }
+
+  .yellow-text{
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F6BC25;
+    letter-spacing: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .yellow-text img{
+    display: flex;
+    width: 24px;
+    height: 19px;
+    padding-right: 10px;
+  }
+
+  .second-section{
+    background-image: linear-gradient(0deg, #E6E6E6 0%, #FFFFFF 100%);
+    padding-bottom: 15px;
+  }
+  .sub-container {
+    padding-top: 30px;
+  }
+
+  .third-container{
+    padding: 20px 0 15px 0;
+  }
+
+  .bullet-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-bottom: 15px;
   }
