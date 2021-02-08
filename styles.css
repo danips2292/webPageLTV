@@ -282,10 +282,76 @@ body {
 
 /*large tablet and laptop styles*/
 @media screen and (min-width: 768px){
-
-}
-
-/* desktop styles*/
-@media screen and (min-width:1440px){
+    .search-area h1 {
+      font-size: 48px;
+    }
+    .search-area h4{
+      font-size: 20px;
+      line-height: 24px;
+    }
+    .input-email {
+      height: 70px;
+    }
+    .container-input input {
+      top: 21px;
+    }
+    .btn-search {
+      padding: 14px 71px;
+      width: 100%;
+      margin-top: 9px;
+      height: 70px;
+  }
+    .title-second-section {
+      font-size: 48px;
+    }
+    .lorem-information {
+      font-size: 20px;
+    }
+    .dot{
+      font-size: 33.6px;
+      padding-left: 14px;
+    }
+    .footer{
+      padding: 14px 15px 14px 15px;
+    }
+    .footer-information {
+      padding-bottom: 0;
+    }
+    .text-terms {
+      margin-top: 9px;
+  }
+  }
+  
+  /* desktop styles*/
+  @media screen and (min-width:1440px){
+    .box {
+      padding: 0 230px;
+    }
+    .search-area h1 {
+      font-size: 52px;
+    }
+    .search-area h4{
+      font-size: 24px;
+      line-height: 29px;
+    }
+    .title-second-section {
+      font-size: 52px;
+    }
+    .lorem-information {
+      font-size: 22px;
+    }
+    .dot{
+      font-size: 48px;
+      padding-left: 11px;
+    }
+    .footer{
+      padding: 14px 130px 14px 130px;
+    }
+    .text-terms {
+      margin-top: 9px;
+    }
     
-}
+    .search-area{
+      padding-bottom: 95px;
+    }  
+  }
